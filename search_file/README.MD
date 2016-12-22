@@ -5,5 +5,3 @@ example:  ./search_file.py hospitaldata/ 0013256
 
 Output: list of filenames with the text content searched for
 
-
-<!--keywod-->
