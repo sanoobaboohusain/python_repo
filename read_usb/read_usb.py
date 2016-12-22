@@ -1,5 +1,8 @@
+#author sanoob aboo husain
+
 import serial
 import sys
+
 
 def read_serial(port, baud_rate, mode):
     ser = serial.Serial(port, timeout=None,baudrate=baud_rate, xonxoff=False, rtscts=False, dsrdtr=False)
